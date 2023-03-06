@@ -1,0 +1,23 @@
+site_name: Desktop Goose mod making documentation
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - def_list
+
+nav:
+    - Home: index.md
+    - First steps:
+        - What you need: "First steps\\index.md"
+        - Setup: "First steps\\instvs.md"
+        - First project: "First steps\\fproj.md"
+        - Coding on your project: "First steps\\xfa.md"
+    - QOL:
+      - Compile your mod in the mod folder and have it auto-run: "QOL\\compmod.md"
+theme:
+  font:
+    text: Roboto
+  name: material
+  palette:
+    scheme: slate
+    primary: blue grey
